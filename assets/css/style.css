@@ -1,0 +1,81 @@
+@import url('normalize.css');
+/**
+* Reset or normalise used to standardise broswer display
+  **/
+
+
+
+
+/* Redefine existing HTML styles */
+body{
+    font-family: helvetica;
+    font-size: smaller;
+    color: #000000;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+a{
+    color: #999999;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+}
+
+header ul, footer ul{
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #999999;
+
+}
+header li, footer li{
+
+    width: 160px;
+    float: left;
+    text-align: center;
+}
+
+header a, footer a{
+    color: #000000;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+header a:hover, footer a:hover{
+    background-color: #999999;
+}
+
+
+footer li{
+    width: 460px;
+
+
+}
+
+
+div{
+    clear: both;
+}
+
+/* Class based styles */
+
+
+
+/* ID based styles */
+
+
+
+
+/* Style changes for larger displays or devices */
+
+
+div img{
+
+}
